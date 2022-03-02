@@ -1,11 +1,18 @@
 import { createGlobalStyle } from "styled-components";
 
 const GlobalStyles = createGlobalStyle`
-  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
-
 
 :root {
-  
+  --GlPrimary: 	hsl(46, 100%, 60%);
+  --GrayHS: 0, 0%;
+  --fs-xxxl: rem ;
+  --fs-xxl: rem ;
+  --fs-xl: rem ;
+  --fs-l: rem ;
+  --fs-m: rem ;
+  --fs-s: rem ;
+  --fs-xs: rem ;
+  --fs-xxs: rem ;
 }
 
 *, *::after, *::before {
@@ -13,6 +20,11 @@ const GlobalStyles = createGlobalStyle`
   padding: 0px;
   margin: 0px;
 }
+
+html{
+  font-size: 62.5%;
+}
+
 html,
 body {
   height: 100%;
