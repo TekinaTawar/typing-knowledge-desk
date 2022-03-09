@@ -23,6 +23,7 @@ const Header = () => {
       <S.Nav>
         <S.NavLv1>
           <li>
+<<<<<<< HEAD
             <a href="#">Home</a>
           </li>
           <li>
@@ -30,6 +31,15 @@ const Header = () => {
             <S.NavLv2>
               <li>
                 <a href="#">English</a>
+=======
+            <a href="/index.html">Home</a>
+          </li>
+          <li>
+            <a href="/tutor.html">Tutor {">"}</a>
+            <S.NavLv2>
+              <li>
+                <a href="/tutor.html">English</a>
+>>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
               </li>
               <li>
                 <a href="#">Hindi</a>
@@ -48,6 +58,7 @@ const Header = () => {
             </S.NavLv2>
           </li>
           <li>
+<<<<<<< HEAD
             <a href="#">Keyboards {">"}</a>
             <S.NavLv2>
               <li>
@@ -55,6 +66,15 @@ const Header = () => {
               </li>
               <li>
                 <a href="#">International Languages</a>
+=======
+            <a href="transliterate.html">Keyboards {">"}</a>
+            <S.NavLv2>
+              <li>
+                <a href="/tranliterate.html">Indian Languages</a>
+              </li>
+              <li>
+                <a href="/transliterate.html">International Languages</a>
+>>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
               </li>
             </S.NavLv2>
           </li>
@@ -62,7 +82,11 @@ const Header = () => {
             <a href="#">Multiplayer</a>
           </li>
           <li>
+<<<<<<< HEAD
             <a href="#">Translate</a>
+=======
+            <a href="/translate.html">Translate</a>
+>>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
           </li>
           <li>
             <a href="http://blog.typingknowledgedesk.com">Blog {">"}</a>
