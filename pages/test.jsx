@@ -1,9 +1,5 @@
 import styled from "styled-components";
 
-<<<<<<< HEAD
-=======
-
->>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
 const Container = styled.div`
   padding: 20px;
   display: flex;
@@ -27,19 +23,10 @@ const Container = styled.div`
 `;
 
 const Test = () => {
-<<<<<<< HEAD
-=======
-
->>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
   return (
     <Container>
       {/* <div className="vl"></div> */}
       {/* <div className="hl"></div> */}
-<<<<<<< HEAD
-=======
-
-      <Modal></Modal>
->>>>>>> bdd8879d3549e8a0e0580b9f1f0805329dcbd081
     </Container>
   );
 };
